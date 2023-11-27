@@ -295,6 +295,11 @@ p.description {
   padding: 80px 30px 100px 30px;
 }
 
+.team h3 {
+  /* border: solid 1px tomato; */
+  text-align: center;
+}
+
 .description {
   /* max-width: 700px;
   margin: 0 auto; */
