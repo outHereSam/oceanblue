@@ -200,6 +200,10 @@ header nav ul li a.cta:hover {
   gap: 30px;
 }
 
+.clients img {
+  height: 50px;
+}
+
 /* What we do */
 .what-we-do {
   background-color: #f7f7f7;
