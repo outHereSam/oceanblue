@@ -141,19 +141,15 @@ header nav ul li a.cta:hover {
   /* padding-top: 86px; */
   /* height: 500px; */
   /* background-color: #ccc; */
-  background-image: url("../images/HeroBG.png");
+  background-image: url("../images/HeroBGnew1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.hero {
-  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
 }
 
 .hero #container {
   padding: 100px 30px;
-  /* z-index: 2; */
 }
 
 .hero h1 {
