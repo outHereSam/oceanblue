@@ -558,6 +558,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .team-members .member .profile {
