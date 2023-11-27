@@ -71,6 +71,10 @@ header button#menu {
   cursor: pointer;
 }
 
+a.logo img {
+  height: 50px;
+}
+
 .hidden {
   display: none;
 }
