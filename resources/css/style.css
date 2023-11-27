@@ -17,6 +17,29 @@ h3 {
   margin: 0 0 20px 0;
 }
 
+#top {
+  border: none;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #52aeeb;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in;
+
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+}
+
+#top:hover {
+  background-color: #78c9ff;
+}
+
 /* Header */
 #container {
   max-width: 1280px;
@@ -290,9 +313,57 @@ p.description {
 }
 
 /* About page */
-.about {
+.about,
+.services {
   /* border: solid 1px tomato; */
   padding: 80px 30px 100px 30px;
+}
+
+.sub-service {
+  width: 400px;
+  height: 441px;
+  border-radius: 8px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* padding: 30px; */
+}
+
+.machinery {
+  background-image: url("../images/products/logistics.jpeg");
+}
+
+.heavyduty {
+  background-image: url("../images/products/move.jpeg");
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(217, 217, 217, 0), rgba(0, 0, 0, 0.8));
+  border-radius: 8px;
+}
+
+.service-description {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  color: #fff;
+}
+
+.service-description h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.service-description p {
+  margin: 30px 0 0 0;
+  line-height: 28px;
+  max-width: 90%;
 }
 
 .team h3 {
