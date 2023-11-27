@@ -193,6 +193,17 @@ header nav ul li a.cta:hover {
   /* height: 150px; */
   padding: 50px 30px;
   /* border: solid 1px pink; */
+}
+
+.clients #container {
+  padding: 0 30px;
+}
+
+.clients h3 {
+  margin: 0 0 30px 0;
+}
+
+.clients .client-imgs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
