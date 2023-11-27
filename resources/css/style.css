@@ -687,4 +687,14 @@ footer .contact .socials {
   .contact-details {
     display: none;
   }
+
+  footer #container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 0 40px 0;
+  }
+
+  footer .contact {
+    padding: 60px 0;
+  }
 }
